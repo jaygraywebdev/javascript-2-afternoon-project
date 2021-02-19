@@ -18,7 +18,11 @@ var arr = [10,20,30];
 */
 
 //Code Here
+function first(firstItem){
+  return firstItem.shift()
+};
 
+first (arr);
 
 
 ////////// PROBLEM 2 //////////
@@ -33,7 +37,11 @@ var arr = [40,50,60];
 */
 
 //Code Here
+function last(lastItem){
+  return lastItem.pop()
+};
 
+last(arr);
 
 
 ////////// PROBLEM 3 //////////
