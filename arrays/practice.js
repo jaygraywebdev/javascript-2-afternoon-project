@@ -18,7 +18,11 @@ var arr = [10,20,30];
 */
 
 //Code Here
+function first(firstItem){
+  return firstItem.shift()
+};
 
+first (arr);
 
 
 ////////// PROBLEM 2 //////////
@@ -33,7 +37,11 @@ var arr = [40,50,60];
 */
 
 //Code Here
+function last(lastItem){
+  return lastItem.pop()
+};
 
+last(arr);
 
 
 ////////// PROBLEM 3 //////////
@@ -48,8 +56,11 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 */
 
 //Code Here
+function looper(arrayLoop){
+  return arrayLoop.toString()
+};
 
-
+looper(family);
 
 ////////// PROBLEM 4 //////////
 
@@ -63,7 +74,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+function reversedLooper(arrayReverse){
+  return arrayReverse.reverse()
+}
 
+reversedLooper(letters);
 
 
 ////////// PROBLEM 5 //////////
